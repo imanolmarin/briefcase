@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}/* Esto es lo que tengo que poner siempre al incio para resetear los estilos predeterminados del navegador  */
+
+.head-nav {
+  margin-top: 10px;
+  list-style: none;
+  padding-left: 0;
+  background-color: #13a4a4;
+}
+.head-nav__item {
+  display: inline-block;
+}
+.head-nav__item a{
+  color: rgb(230, 16, 16);
+  padding: 5px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.head-nav__item a:hover {
+  color: blue;
+}
+.head-nav__item a:active {
+  color: green;
+}
+
+.head-nav__item::after {
+  content: " | ";
+}
+.main-nav 
+{
+  margin-top: 10px;
+  list-style: none;
+  padding-left: 0px;
+  background-color: #13a4a4;
+}
+.main-nav__item
+{
+  list-style: none;
+  /* display: inline-block; Esto acomoda las lineas en forma horizontal, sirve para las nav */
+}
+.main-nav__title
+{
+  width: 100%;
+  border: 10px solid green;
+  padding: 20px 35px;
+}
+.main-nav__item a
+{
+  color: pink;
+  padding: 5px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+.main-nav__item a:hover
+{
+  color: red;
+}
+.main-nav__item a:active
+{
+  color:blue;
+}
+.main-nav__item a::after
+{
+  content: " | ";
+}
+.main-nav__imag 
+{
+  width: 15%;
+  padding-left: 30px;
+}
