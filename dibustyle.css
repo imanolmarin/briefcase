@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html
+{
+  font-size: 62.5%;
+}
+main
+{  
+  
+  width: 80vw;
+  height: 100vh;
+  background-color: green;
+  
+}
+.head
+{
+  
+  background-color: yellow;
+  height: 10rem;
+  display: flex;
+}
+
+.nav__list
+{
+  
+  display: inline;
+  list-style: none;
+  border-radius: 7px;
+  background-color: aqua;
+
+
+}
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+
+/* HEADER */
+/* header {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightblue;
+  height: 5vh;
+}
+
+/* Establecer un tamaño para el nav y que aplicando el justify-content se separe a cierta distancia.*/
+/*nav {
+  width: 30vw;
+}
+
+navul {
+  display: flex;
+  justify-content: space-around;
+}
+
+navulli {
+  list-style: none;
+  /* padding: 0 20px 20px; */
+
+/*}
+
+/* MAIN */
+/*main {
+  display: flex;
+  height: 90vh;
+}
+
+aside {
+  width: 30%;
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+asidediv {
+  width: 80%;
+  height: 15%;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+section {
+  background-color: #273b47;
+  color: white;
+}
+
+/* FOOTER */
+/*footer {
+  background-color: yellow;
+  height: 5vh;
+} */
+
+/* :root {
+  --primary-color: #003476;
+  --secundary-color: #b4d2f7;
+  --header-size: 4rem;
+  --font: 1.8rem;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+header {
+  width: 100vw;
+  height: 15vh;
+  background-color: var(--primary-color);
+}
+main {
+  width: 100vw;
+  height: 70vh;
+  font-size: var(--font);
+}
+
+h1 {
+  font-size: var(--header-size);
+  color: var(--primary-color);
+}
+
+footer {
+  width: 100vw;
+  height: 15vh;
+  background-color: var(--secundary-color);
+} */
